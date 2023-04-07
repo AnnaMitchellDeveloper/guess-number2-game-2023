@@ -1,12 +1,37 @@
 body {
-	font-family: 'Poppins', sans-serif;
-	background-image: url(../images/bg-picture.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-image: url(../images/bg-picture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+footer {
+  margin-top: 250px;
+}
+footer p {
+  text-align: center;
+}
+footer a {
+  color: black;
 }
 .container {
-	display:block;
-	margin: 0 auto;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  width: 600px;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 200px;
+}
+.container h2 {
+  font-size: 30px;
+}
+.container .input-field,
+.container .play-btn {
+  font-size: 25px;
+  border-radius: 5px;
 }
